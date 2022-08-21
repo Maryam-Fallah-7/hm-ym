@@ -1,0 +1,138 @@
+
+
+.content{
+    background-color:  #e3ebf1 !important;
+    width: 100%;
+    height: 200vh;
+    margin-bottom: 60px;
+}
+
+
+
+span{
+    color: rgba(221, 203, 203, 0.747);
+    display: block;
+    font-size: 15px;
+}
+.location li{
+    display:inline-block;
+}
+
+.country{
+    width:1px;
+}
+.sign{
+    display:inline;
+}
+.s{
+    text-align: center;
+   
+}
+.h{
+    background-color: rgb(4, 4, 44);
+    color: white;
+    text-align: center;
+}
+
+/* .foo{
+    background-color: black;
+    color: white;
+} */
+
+
+
+.a{
+    width: 100%;
+    height: 10%;
+    background-color: white !important;
+    /* display: flex;
+    justify-content: space-between; */
+   
+    margin: 20px;
+   
+   
+   
+}
+.a img{
+    width: 17%;
+    height: 20%;
+   
+    margin: 20px;
+}
+
+
+@media (max-width:768px)
+{
+  
+    .content{
+        height: 250vh;
+    }
+    .footer{
+        text-align: center;
+        height: 300vh;
+    }
+}
+
+@media (max-width:600px)
+{
+  .a img{
+        width: 80%;
+        height: 80%;
+      
+      
+    }
+
+    .content{
+        height: 1000vh;
+    }
+    .footer{
+        text-align: center;
+        height: 1000vh;
+    }
+}
+
+
+
+.signin{
+   
+    text-align: center;
+    border-bottom: 1px solid rgb(126, 120, 120);
+    border-top: 1px solid rgb(126, 120, 120);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.signin button
+{
+    background-color: orange !important;
+    width: 220px;
+    height: 22px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px !important;
+    color: black;
+}
+
+.footer
+{
+    background-color: rgb(51, 47, 47);
+    width: 100%;
+    height: 200vh;
+    color: white;
+}
+.footer h5{
+    background-color: rgb(20, 19, 19);
+    width: 100%;
+    height: 8vh;
+    padding:15px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+   
+}
+
+.footer h6{
+    margin: 30px;
+}
+.footer pre{
+    color: white;
+}
